@@ -19,37 +19,3 @@ dev_dependencies:
   flutter_lints: ^5.0.0
   mockito: ^5.4.5
   test: ^1.25.8
-
-# Removing 'publish_to: none' so it's ready for public publishing.
-# By default, if publish_to is not specified, it targets 'https://pub.dev'.
-
-flutter:
-  plugin:
-    platforms:
-      android:
-        # The 'package' is the Android package name where the plugin class is located.
-        package: com.tachibana_shin.notifier_plus
-        pluginClass: NotifierPlusPlugin
-      ios:
-        pluginClass: NotifierPlusPlugin
-      macos:
-        pluginClass: NotifierPlusPlugin
-      linux:
-        pluginClass: NotifierPlusPlugin
-      windows:
-        pluginClass: NotifierPlusPlugin
-      web:
-        pluginClass: NotifierPlusWebPlugin
-        fileName: lib/notifier_plus_web.dart
-# Adjust or remove entries below as needed.
-
-# Example showing how to add assets for the plugin:
-# assets:
-#   - images/a_dot_burr.jpeg
-#   - images/a_dot_ham.jpeg
-
-# Example showing how to add fonts for the plugin:
-# fonts:
-#   - family: Schyler
-#     fonts:
-#       - asset: fonts/Schyler-Regular.ttf
