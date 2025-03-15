@@ -1,6 +1,6 @@
 name: notifier_plus
 description: "Notifier Plus is a Flutter plugin that improves reactive data handling, merges consecutive state updates, and prevents redundant rebuilds. It provides specialized notifiers (both synchronous and asynchronous), composable watchers, and useful utilities (like OneCallTask) to streamline state management and enhance performance."
-version: 0.0.1
+version: 0.1.0
 repository: https://github.com/tachibana-shin/notifier_plus
 homepage: https://github.com/tachibana-shin/notifier_plus
 
