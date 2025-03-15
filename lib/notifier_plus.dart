@@ -1,14 +1,13 @@
-// You have generated a new plugin project without specifying the `--platforms`
-// flag. A plugin project with no platform support was generated. To add a
-// platform, run `flutter create -t plugin --platforms <platforms> .` under the
-// same directory. You can also find a detailed instruction on how to add
-// platforms in the `pubspec.yaml` at
-// https://flutter.dev/to/pubspec-plugin-platforms.
+export 'composables/watch.dart';
 
-import 'notifier_plus_platform_interface.dart';
+export 'notifier+/mixins/notifier_plus_mixin.dart';
 
-class NotifierPlus {
-  Future<String?> getPlatformVersion() {
-    return NotifierPlusPlatform.instance.getPlatformVersion();
-  }
-}
+export 'notifier+/utils/one_call_task.dart';
+
+export 'notifier+/computed_async_notifier.dart';
+export 'notifier+/computed_notifier.dart';
+export 'notifier+/notifier.dart';
+export 'notifier+/watch_async_computed.dart';
+export 'notifier+/watch_computed.dart';
+export 'notifier+/watch_computes.dart';
+export 'notifier+/watch_notifier.dart';
